@@ -11,7 +11,7 @@ class Timer extends Component {
   }
 
   //Your code here
-  shouldComponentUpdate(nextProps, nextState) {
+  shouldComponentUpdate(nextState) {
     if (this.state.time === nextState.time) {
       return false
     }
